@@ -1,0 +1,10 @@
+title: Kirstin & Jonathan
+email: someone@kirstin-und-jonathan.de
+description: >
+  Informationen zur Hochzeit von Kirstin und Jonathan. 
+  Was hast du gedacht? :-)
+baseurl: "/" 
+url: "http://boidol.github.io"
+
+# Build settings
+markdown: kramdown
