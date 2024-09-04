@@ -6,3 +6,13 @@
 body {
     font-family: "Playfair Display"
 }
+
+.olive {
+    min-height: 150px;
+    background-image: url( {{ '/assets/img/olive.png' | relative_url }});
+    background-size: contain;
+    margin: 0px;
+    background-repeat: space;
+    background-position: left top;
+
+}
