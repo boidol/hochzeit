@@ -5,6 +5,13 @@ title: Verrückt, aber wahr ... wir heiraten.
 easteregg: codenames
 ---
 
+[Wann und wo](#wann-und-wo)  
+[Rückmeldung](#rückmeldung)  
+[Unterkunft vor Ort](#unterkunft-vor-ort)  
+[Anreise](#anreise)  
+[Geschenke](#geschenke)  
+[Kontaktadressen](#kontaktadressen)  
+
 
 ## Wann und wo
 
@@ -18,7 +25,7 @@ Vom 13. Juni bis 15. Juni 2025 seid ihr herzlich auf die [Tenuta Casteani](https
 
 Um unsere gemeinsame Feier zu planen, freuen wir uns, wenn ihr möglichst bald zu- oder absagt, spätestens bitte zum 1. März 2025.
 
-## Unterkünfte
+## Unterkunft vor Ort
 
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/casteani_unterkunft.png" alt="Casteani" />
 
@@ -31,12 +38,30 @@ Wir bemühen uns natürlich, für euch die beste Lösung zu finden.
 
 Für die Hochzeit seid ihr unsere Gäste - wenn ihr aber ein paar Tage früher oder später abreisen wollt, bucht diese Zeit gerne selbst bei der Tenuta oder im Palazzo.
 
-## Weitere Informationen
 
-Alle aktuellen Informationen findet ihr hier. Bei weiteren Fragen wendet euch gerne an das Brautpaar. 
+## Anreise
 
+Massa Marittima ist mit dem Auto in ca. 8 Stunden von München aus zu erreichen. 
+Für das letzte Stück ab Colle di Val d'Elsa empfehlen wir die etwas weniger 
+kurvige Strecke über Frosini und San Galgano.
+
+Der nächste Flughafen ist Pisa, von dort mit dem Zug nach Follonica, dann mit dem Bus nach Massa Marittima.
+
+Die ÖBB bietet Züge von München über Verona nach Bologna, Trenitalia die Verbindung bis nach Follonica an.
+
+Wenn ihr die Anreise entspannter gestalten möchtet, empfehlen wir Verona oder Bologna als Zwischenstation, die sich auch mit dem Zug sehr gut erreichen lässt.
+
+Wenn ihr ohne Auto anreist, setzt euch mit uns in Verbindung, damit wir den Transport zwischen Massa und Casteani und bei Bedarf von Follonica organisieren können.
+
+## Geschenke
+
+Gute Bücher, interessante Bilder, Zeit mit euch ... klein, leicht, transportabel und schön. ;)
 
 ## Kontaktadressen
 
 Hier erreicht ihr unsere Trauzeugen Christine und Raphael: [trauzeugen@kirstin-und-jonathan.de](mailto:trauzeugen@kirstin-und-jonathan.de)
 
+
+## Weitere Informationen
+
+Alle aktuellen Informationen findet ihr hier. Bei weiteren Fragen wendet euch gerne an das Brautpaar. 
