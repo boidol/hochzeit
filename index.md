@@ -24,7 +24,7 @@ Um unsere gemeinsame Feier zu planen, freuen wir uns, wenn ihr möglichst bald z
 
 Wir haben Zimmer für euch entweder auf der Tenuta Casteani oder im [Palazzo Malfatti](https://www.palazzomalfattiresidenzadepoca.com/?lang=en) (direkt in Massa Marittima) reserviert. 
 Da der Platz begrenzt ist, helft ihr uns sehr, wenn ihr bereit seid, eure Zimmer oder Appartements mit anderen Gästen zu teilen. 
-Wir bemühen uns natürlich, für alle unsere Gäste die bequemste Lösung zu finden.
+Wir bemühen uns natürlich, für euch die beste Lösung zu finden.
 
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/palazzo_malfatti.png" alt="Palazzo Malfatti" />
 
@@ -36,11 +36,7 @@ Für die Hochzeit seid ihr unsere Gäste - wenn ihr aber ein paar Tage früher o
 Alle aktuellen Informationen findet ihr hier. Bei weiteren Fragen wendet euch gerne an das Brautpaar. 
 
 
-## Geschenke
-
-
-
 ## Kontaktadressen
 
-Hier erreicht ihr unsere Trauzeugen Raphael und Christine: [trauzeugen@kirstin-und-jonathan.de](mailto:trauzeugen@kirstin-und-jonathan.de)
+Hier erreicht ihr unsere Trauzeugen Christine und Raphael: [trauzeugen@kirstin-und-jonathan.de](mailto:trauzeugen@kirstin-und-jonathan.de)
 
