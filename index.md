@@ -35,7 +35,7 @@ Wir bemühen uns natürlich, für euch die beste Lösung zu finden.
 <img src="{{site.baseurl | prepend: site.url}}/assets/img/palazzo_malfatti.png" alt="Palazzo Malfatti" />
 
 
-Für die Hochzeit seid ihr unsere Gäste - wenn ihr aber ein paar Tage früher oder später abreisen wollt, bucht diese Zeit gerne selbst bei der Tenuta oder im Palazzo.
+Für die Hochzeit seid ihr unsere Gäste - wenn ihr aber ein paar Tage früher an- oder später abreisen wollt, bucht diese Zeit gerne selbst bei der Tenuta oder im Palazzo.
 
 
 ## Anreise
