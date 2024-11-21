@@ -1,7 +1,7 @@
 ---
 layout: home
 show_posts: false
-title: Verrückt, aber wahr ... wir heiraten.
+title: Feiert mit uns
 easteregg: codenames
 ---
 
