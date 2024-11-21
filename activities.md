@@ -1,7 +1,14 @@
 ---
 layout: home
 show_posts: false
-title: Aktivitäten in Massa Marittima
+title: Informationen über die Gegend
 ---
 
-nothing here
+
+[Kultur](#kultur)  
+[Wandern](#reiten-wandern-wanderreiten)
+
+
+## Kultur
+
+## Reiten, Wandern, Wanderreiten

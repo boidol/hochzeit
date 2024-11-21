@@ -56,6 +56,11 @@ Wenn ihr ohne Auto anreist, setzt euch mit uns in Verbindung, damit wir den Tran
 ## Geschenke
 
 Gute Bücher, interessante Bilder, Zeit mit euch ... klein, leicht, transportabel und schön. ;)
+
+## Informationen über die Gegend
+
+Wir haben eine [Seite]({{site.baseurl | prepend: site.url}}{% link activities.md %}) mit Informationen über Massa Marittima und die Umgebung für euch zusammen gestellt.
+
 -->
 
 ## Kontaktadressen
