@@ -45,7 +45,7 @@ Massa Marittima ist mit dem Auto in ca. 8 Stunden von München aus zu erreichen.
 Für das letzte Stück ab Colle di Val d'Elsa empfehlen wir die etwas weniger 
 kurvige Strecke über Frosini und San Galgano.
 
-Der nächste Flughafen ist Pisa, von dort mit dem Zug nach Follonica, dann mit dem Bus nach Massa Marittima.
+Der nächstgelegene Flughafen ist Pisa, von dort mit dem Zug nach Follonica, dann mit dem Bus nach Massa Marittima.
 
 Die ÖBB bietet Züge von München über Verona nach Bologna, Trenitalia die Verbindung bis nach Follonica an.
 
@@ -53,9 +53,11 @@ Wenn ihr die Anreise entspannter gestalten möchtet, empfehlen wir Verona oder B
 
 Wenn ihr ohne Auto anreist, setzt euch mit uns in Verbindung, damit wir den Transport zwischen Massa und Casteani und bei Bedarf von Follonica organisieren können.
 
+<!--
 ## Geschenke
 
 Gute Bücher, interessante Bilder, Zeit mit euch ... klein, leicht, transportabel und schön. ;)
+-->
 
 ## Kontaktadressen
 

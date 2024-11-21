@@ -4,8 +4,18 @@
 @import "{{ site.theme }}";
 
 body {
-    font-family: "Playfair Display"
+    font-family: 'Playfair Display';
+    background: #ebe5d7;
 }
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display';}
+
+p {font-family: 'Quattrocento'}
+
+#container {
+    background: #ebe5d7;
+}
+
 
 .olive {
     min-height: 150px;
