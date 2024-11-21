@@ -8,7 +8,46 @@ body {
     background: #ebe5d7;
 }
 
+header h1 {font-family: 'Playfair Display';}
+header h2 {font-family: 'Playfair Display';}
+
 h1, h2, h3, h4, h5, h6 {font-family: 'Playfair Display';}
+
+h2#wann-und-wo {
+    padding-left: 70px;
+    background-image: url( {{ '/assets/img/olive_2.png' | relative_url }});
+    background-size: contain;
+    margin: 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+h2#rückmeldung {
+    padding-left: 70px;
+    background-image: url( {{ '/assets/img/olive_1.png' | relative_url }});
+    background-size: contain;
+    margin: 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+h2#unterkunft-vor-ort {
+    padding-left: 70px;
+    background-image: url( {{ '/assets/img/olive_2.png' | relative_url }});
+    background-size: contain;
+    margin: 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+h2#anreise {
+    padding-left: 70px;
+    background-image: url( {{ '/assets/img/olive_3.png' | relative_url }});
+    background-size: contain;
+    margin: 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
 
 p {font-family: 'Quattrocento'}
 

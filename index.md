@@ -5,15 +5,14 @@ title: Feiert mit uns
 easteregg: codenames
 ---
 
-[Wann und wo](#wann-und-wo)  
+[Wann und Wo](#wann-und-wo)   
 [Rückmeldung](#rückmeldung)  
 [Unterkunft vor Ort](#unterkunft-vor-ort)  
 [Anreise](#anreise)  
-[Geschenke](#geschenke)  
-[Kontaktadressen](#kontaktadressen)  
+[Kontaktadressen](#kontaktadressen)
 
 
-## Wann und wo
+## Wann und Wo
 
 Die standesamtliche Trauung findet am Samstag, 14. Juni 2025, in [Massa Marittima](https://www.google.com/maps/place/Municipality+of+Massa+Marittima/@43.0504119,10.8880151,20.78z/data=!3m1!5s0x1329eea87a186e11:0xc0810b2e46394cfc!4m15!1m8!3m7!1s0x1329ec02565ae7e5:0x8486199bd0c53120!2s58024+Massa+Marittima,+Grosseto,+Italien!3b1!8m2!3d43.0484939!4d10.8876394!16zL20vMDkwbmgx!3m5!1s0x1329ec04bf87e9af:0x69f3345154f94833!8m2!3d43.0504537!4d10.8880899!16s%2Fg%2F121dvj2b?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D) statt.
 
