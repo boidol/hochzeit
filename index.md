@@ -5,10 +5,13 @@ title: Feiert mit uns
 easteregg: codenames
 ---
 
+Schön, dass ihr hier seid! Hier findet ihr alle Informationen zu unserer Hochzeit - wir werden das eine oder andere Detail noch ergänzen.
+
 [Wann und Wo](#wann-und-wo)   
 [Rückmeldung](#rückmeldung)  
 [Unterkunft vor Ort](#unterkunft-vor-ort)  
 [Anreise](#anreise)  
+[Geschenke](#geschenke)  
 [Kontaktadressen](#kontaktadressen)
 
 
@@ -52,11 +55,12 @@ Wenn ihr die Anreise entspannter gestalten möchtet, empfehlen wir Verona oder B
 
 Wenn ihr ohne Auto anreist, setzt euch mit uns in Verbindung, damit wir den Transport zwischen Massa und Casteani und bei Bedarf von Follonica organisieren können.
 
-<!--
 ## Geschenke
 
-Gute Bücher, interessante Bilder, Zeit mit euch ... klein, leicht, transportabel und schön. ;)
+Gute Bücher, interessante Dinge, Zeit mit euch ... klein, leicht, transportabel und schön. ;)
 
+
+<!--
 ## Informationen über die Gegend
 
 Wir haben eine [Seite]({{site.baseurl | prepend: site.url}}{% link activities.md %}) mit Informationen über Massa Marittima und die Umgebung für euch zusammen gestellt.
