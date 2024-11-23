@@ -41,5 +41,5 @@ export const headerData = {
 };
 
 export const footerData = {
-  footNote: `<a href="/codenames">©</a>&nbsp;2024 Kirstin & Jonathan&nbsp;|&nbsp;<a class="underline" href="mailto:info@kirstin-und-jonathan.de">Kontakt</a>`,
+  footNote: `<a href="/codenames">🥚</a>&nbsp;2024 Kirstin & Jonathan&nbsp;|&nbsp;<a class="underline" href="mailto:info@kirstin-und-jonathan.de">Kontakt</a>`,
 };
