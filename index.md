@@ -69,7 +69,7 @@ Wir haben eine [Seite]({{site.baseurl | prepend: site.url}}{% link activities.md
 
 ## Kontaktadressen
 
-Hier erreicht ihr unsere Trauzeugen Christine und Raphael: [trauzeugen@kirstin-und-jonathan.de](mailto:trauzeugen@kirstin-und-jonathan.de)
+Hier erreicht ihr unsere Trauzeugen Christine, Sandra und Raphael: [trauzeugen@kirstin-und-jonathan.de](mailto:trauzeugen@kirstin-und-jonathan.de)
 
 
 ## Weitere Informationen
