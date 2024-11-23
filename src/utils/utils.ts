@@ -21,6 +21,7 @@ export const toHtmlId = (value: string | undefined): string | undefined => {
   return value
     ? value
         .toLowerCase()
+        .substring(value.lastIndexOf('>'))
         .replace(/[^a-z]/g, '')
         .replace(/\s/g, '-')
     : undefined;
