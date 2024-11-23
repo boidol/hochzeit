@@ -1,0 +1,23 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Image from '~/components/widgets/Image.astro';
+
+const metadata = {
+  title: 'Kirstin & Jonathan - wir heiraten!',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot="title">Codenames</Fragment>
+    <Fragment slot="subtitle"
+      >In den letzten Runden Codenames lagen erstaunlich viele Städte auf dem Tisch. Wenn die Hinweise das Codewort so
+      binär abbilden, kommt man zu erstaunlichen Resultaten. :-)</Fragment
+    >
+  </Hero>
+  <Image image={{ src: '~/assets/images/section_1.png', alt: 'Sektion 1' }} />
+  <Image image={{ src: '~/assets/images/section_2.png', alt: 'Sektion 2' }} />
+  <Image image={{ src: '~/assets/images/section_3.png', alt: 'Sektion 3' }} />
+</Layout>

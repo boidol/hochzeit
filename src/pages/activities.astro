@@ -1,0 +1,27 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Kirstin & Jonathan - wir heiraten!',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero image={{ src: '~/assets/images/olives.free.jpg', alt: 'Olivenzweige' }}>
+    <Fragment slot="title"> Informationen über die Gegend </Fragment>
+
+    <Fragment slot="subtitle"> In der Gegend gibt es viele Aktivitäten. Hier eine kleine Auswahl. </Fragment>
+  </Hero>
+
+  <Features2 title="Kultur" subtitle="Schönes zum Ansehen, Anhören & Schmecken.">
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[--aw-color-secondary] opacity-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <Features2 title="Reiten, Wandern, Wanderreiten" subtitle="Für die Aktivieren." />
+</Layout>

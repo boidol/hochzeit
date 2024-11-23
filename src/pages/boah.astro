@@ -1,0 +1,16 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'Kirstin & Jonathan - wir heiraten!',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot="title"> Sehr beeindruckend! </Fragment>
+    <Fragment slot="subtitle"> Sprich das Brautpaar auf Fazer an und sichere dir deine Belohnung. </Fragment>
+  </Hero>
+</Layout>
