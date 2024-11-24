@@ -56,7 +56,7 @@ const config = {
     6016, // 6K
   ],
 
-  formats: ['image/webp'],
+  formats: ['webp', 'avif'],
 };
 
 const computeHeight = (width: number, aspectRatio: number) => {
@@ -290,8 +290,16 @@ export async function getImagesOptimized(
 
   let breakpoints = getBreakpoints({ width: width, breakpoints: widths, layout: layout });
   breakpoints = [...new Set(breakpoints)].sort((a, b) => a - b);
+  const formats = format ? [format] : config.formats;
 
-  const srcset = (await transform(image, breakpoints, Number(width) || undefined, Number(height) || undefined, format))
+  const srcset = (
+    await Promise.all(
+      formats.map((format) =>
+        transform(image, breakpoints, Number(width) || undefined, Number(height) || undefined, format)
+      )
+    )
+  )
+    .reduce((a, b) => a.concat(b))
     .map(({ src, width }) => `${src} ${width}w`)
     .join(', ');
 
@@ -300,8 +308,8 @@ export async function getImagesOptimized(
     attributes: {
       width: width,
       height: height,
-      // srcset: srcset || undefined,
-      // sizes: sizes,
+      srcset: srcset || undefined,
+      sizes: sizes,
       style: `${getStyle({
         width: width,
         height: height,
