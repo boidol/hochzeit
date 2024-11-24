@@ -21,11 +21,11 @@ export const headerData = {
         {
           text: 'Anreise',
           href: getPermalink('/#' + toHtmlId('Anreise')),
-        },
+        } /*,
         {
           text: 'Über die Gegend',
           href: getPermalink('activities'),
-        },
+          }, */,
         {
           text: 'Geschenke',
           href: getPermalink('/#' + toHtmlId('Geschenke')),
