@@ -1,7 +1,7 @@
 {
-  "name": "@onwidget/astrowind",
-  "version": "1.0.0-beta.48",
-  "description": "AstroWind: A free template using Astro 4.0 and Tailwind CSS. Astro starter theme.",
+  "name": "boidol-wedding",
+  "version": "1.0.0",
+  "description": "Wedding page based on AstroWind",
   "type": "module",
   "private": true,
   "engines": {
@@ -22,7 +22,6 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.9",
     "@astrojs/sitemap": "^3.2.1",
     "@astrolib/seo": "^1.0.0-beta.8",
     "@fontsource-variable/playfair-display": "^5.1.0",
