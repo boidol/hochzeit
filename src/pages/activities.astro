@@ -3,6 +3,8 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Image from '~/components/common/Image.astro';
 
 const metadata = {
   title: 'Kirstin & Jonathan - wir heiraten!',
@@ -14,20 +16,51 @@ const metadata = {
   <Hero image={{ src: '~/assets/images/olives.free.jpg', alt: 'Olivenzweige' }}>
     <Fragment slot="title"> Informationen über die Gegend </Fragment>
 
-    <Fragment slot="subtitle"> In der Gegend gibt es viele Aktivitäten. Hier eine kleine Auswahl. </Fragment>
+    <Fragment slot="subtitle"> In der Gegend gibt es viele Möglichkeiten, um noch etwas Zeit zu verbringen. </Fragment>
   </Hero>
 
-  <Features2 title="Massa Marittima" subtitle="Klein, aber fein.">
+  <Content
+    image={{
+      src: '~/assets/images/massa.png',
+      alt: 'Massa Marittima',
+    }}
+  >
+    <Fragment slot="title">
+      Massa Marittima - Klein, aber fein.
+    </Fragment>
+
+    <Fragment slot="content">
+      <p>
+        Kathedrale, Festungsturm, Kloster, Brunnen, Eisdielen, Bars.
+      </p>
+    </Fragment>
+
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-[--aw-color-secondary] opacity-50 dark:bg-transparent"></div>
     </Fragment>
-    <p>Kathedrale, Festungsturm, Kloster, Brunnen, Eisdielen, Bars.</p>
-  </Features2>
+  </Content>
 
-  <Features2 title="Maremma und Meer" subtitle="Für die Aktiveren.">
-    <p>
-      An den Strand in Follonica, zum Wandern in den Parco Naturale della Maremma. Auch Siena, San Gimigniano oder
-      Volterra sind nicht weit.
-    </p>
-  </Features2>
+
+  <Content
+    isReversed
+    image={{
+      src: '~/assets/images/follonica.png',
+      alt: 'Strand Follonica',
+    }}
+  >
+    <Fragment slot="title">
+      Maremma und Meer - Für die Aktiveren.
+    </Fragment>
+
+    <Fragment slot="content">
+      <p>
+        An den Strand in Follonica, zum Wandern in den Parco Naturale della Maremma. Auch Siena, San Gimigniano oder
+        Volterra sind nicht weit.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[--aw-color-secondary] opacity-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 </Layout>
