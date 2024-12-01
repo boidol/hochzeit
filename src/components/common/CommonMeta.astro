@@ -1,8 +1,14 @@
 ---
 import { getAsset } from '~/utils/permalinks';
+import '@fontsource/quattrocento';
+import '@fontsource-variable/playfair-display';
+import quattocento from '@fontsource/quattrocento/files/quattrocento-latin-400-normal.woff2?url';
+import playfair from '@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2?url';
 ---
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<link rel="preload" as="font" type="font/woff2" href={quattocento} crossorigin="anonymous" />
+<link rel="preload" as="font" type="font/woff2" href={playfair} crossorigin="anonymous" />
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />
