@@ -31,6 +31,10 @@ export const headerData = {
           href: getPermalink('/#' + toHtmlId('Geschenke')),
         },
         {
+          text: 'Dresscode',
+          href: getPermalink('/#' + toHtmlId('Dresscode')),
+        },
+        {
           text: 'Kontakt',
           href: getPermalink('/#' + toHtmlId('Kontaktadressen')),
         },
