@@ -150,13 +150,16 @@ const metadata = {
     subtitle='Sommerlich-elegant'
   />
 
-
   <Features2
     title="Kontaktadressen"
     subtitle='Hier erreicht ihr unsere Trauzeugen Christine, Sandra und Raphael: <a href="mailto:trauzeugen@kirstin-und-jonathan.de" class="underline">trauzeugen@kirstin-und-jonathan.de<a/>'
-  />
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[--aw-color-secondary] opacity-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
 
-  <!--
+<!--
   <Features2
     title="Informationen über die Gegend"
     subtitle='Wir haben eine <a href="activities" class="underline">Seite</a> mit Informationen über Massa Marittima und die Umgebung für euch zusammen gestellt.'
