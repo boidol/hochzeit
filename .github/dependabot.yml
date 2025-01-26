@@ -11,5 +11,7 @@ updates:
     allow:
       - dependency-type: 'all'
     groups:
-      dependencies:
-        patterns: ['*']
+      dependencies-major:
+        update-types: ['major']
+      dependencies-minor:
+        update-types: ['minor','patch']
