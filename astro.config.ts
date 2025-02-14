@@ -4,10 +4,10 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
+import tailwindcss from '@tailwindcss/vite';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
@@ -22,9 +22,6 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
     sitemap({
       filter: (page) => !(page.includes('boah') || page.includes('codenames')),
     }),
@@ -74,6 +71,7 @@ export default defineConfig({
   },
 
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
