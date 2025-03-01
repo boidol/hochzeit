@@ -14,9 +14,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <Hero image={{ src: '~/assets/images/olives.free.jpg', alt: 'Olivenzweige' }}>
-    <Fragment slot="title"> Informationen über die Gegend </Fragment>
-
-    <Fragment slot="subtitle"> In der Gegend gibt es viele Möglichkeiten, um noch etwas Zeit zu verbringen. </Fragment>
+    <Fragment slot="title">Was tun am Nachmittag?</Fragment>
   </Hero>
 
   <Content
@@ -30,8 +28,37 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="content">
+      <h1>Cattedrale di San Cerbone</h1>
       <p>
-        Kathedrale, Festungsturm, Kloster, Brunnen, Eisdielen, Bars.
+      Dom im spätromanisch-gotischen Stil aus dem 13. Jahrhundert.
+      Auf den zum Dom hochführenden imposanten steinernen Stufen kann man prima das Treiben auf der Piazza beobachten
+      und dabei ein Eis essen (z.B. von der
+      <a href="https://www.google.com/maps/place/Bar+Centrale/@43.0505488,10.8883638,20.62z/data=!4m6!3m5!1s0x1329eea878317fdd:0xbca635d4f9c81e36!8m2!3d43.0506642!4d10.8881368!16s%2Fg%2F11g9gtq2kn?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"  class="underline">
+      Bar Centrale<a/>)
+      </p>
+      <br />
+      <h1>Fonti Dell'Abbondanza</h1>
+      <p>
+      Brunnen aus dem 13. Jahrhundert, frei zugänglich, mit absolut nicht jugendfreien Fresken...
+      </p>
+      <br />
+      <h1>Alte Stadtmauer, Festung und Glockenturm</h1>
+      <p>
+      Wer einen Spaziergang in den höchstgelegenen Teil der Altstadt macht, wird mit der alten Festung der Sieneser,
+      verschiedenen Stadttoren und einem atemberaubenden Ausblick vom Glockenturm auf die umliegende Landschaft belohnt.
+      Eventuell sind wir auch da und machen gerade Fotos. ;)
+      </p>
+      <br />
+      <h1>Altstadt und Gassen</h1>
+      <p>
+      Schlendert unbedingt einmal durch die wunderschöne Altstadt von Massa Marittima, holt euch ein Eis, ein Souvenir oder
+      genießt einfach nur das mittelalterliche Flair.
+      </p>
+      <br />      
+      <h1>Museen</h1>
+      <p>
+      Im Complesso museale San Pietro all'Orto gibt es Kunst aus den örtlichen Kirchen zu sehen.
+      Das Museo della Miniera informiert über die umfangreiche Gechichte des Bergbaus in der Region.
       </p>
     </Fragment>
 
@@ -40,27 +67,4 @@ const metadata = {
     </Fragment>
   </Content>
 
-
-  <Content
-    isReversed
-    image={{
-      src: '~/assets/images/follonica.png',
-      alt: 'Strand Follonica',
-    }}
-  >
-    <Fragment slot="title">
-      Maremma und Meer - Für die Aktiveren.
-    </Fragment>
-
-    <Fragment slot="content">
-      <p>
-        An den Strand in Follonica, zum Wandern in den Parco Naturale della Maremma. Auch Siena, San Gimigniano oder
-        Volterra sind nicht weit.
-      </p>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
 </Layout>
