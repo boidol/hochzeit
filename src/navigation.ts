@@ -20,7 +20,7 @@ export const headerData = {
         },
         {
           text: 'Anreise',
-          href: getPermalink('/#' + toHtmlId('Anreise')),
+          href: getPermalink('/#' + toHtmlId('Anreise & Parken')),
         } /*,
         {
           text: 'Über die Gegend',
