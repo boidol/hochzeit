@@ -3,7 +3,6 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Image from '~/components/common/Image.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Content from '~/components/widgets/Content.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
@@ -47,35 +46,37 @@ const metadata = {
           href="https://www.casteani.it/de/">Tenuta Casteani</a
         > eingeladen, wo wir mit euch feiern möchten.
       </p>
-      <br/>
+      <br />
       <p>
-        13. Juni: <br/>
+        13. Juni: <br />
         Welcomedinner am Freitagabend auf der Tenuta Casteani.
       </p>
-      
-      <p style="border-left: 2px solid #999; margin-left: 20px;"><br/></p>
-      
+
+      <p style="border-left: 2px solid #999; margin-left: 20px;"><br /></p>
+
       <p>
-        14. Juni: <br/>
+        14. Juni: <br />
         Trauung im <a
           class="underline"
           target="_blank"
           href="https://www.google.com/maps/place/Municipality+of+Massa+Marittima/@43.0504119,10.8880151,20.78z/data=!3m1!5s0x1329eea87a186e11:0xc0810b2e46394cfc!4m15!1m8!3m7!1s0x1329ec02565ae7e5:0x8486199bd0c53120!2s58024+Massa+Marittima,+Grosseto,+Italien!3b1!8m2!3d43.0484939!4d10.8876394!16zL20vMDkwbmgx!3m5!1s0x1329ec04bf87e9af:0x69f3345154f94833!8m2!3d43.0504537!4d10.8880899!16s%2Fg%2F121dvj2b?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
-          >Palazzo Communale</a> in Massa Marittima (12:00 Uhr) <br/>
-        Kleiner Empfang in Massa Marittima (~12:30 bis 14:00 Uhr) <br/>
+          >Palazzo Communale</a
+        > in Massa Marittima (12:00 Uhr) <br />
+        Kleiner Empfang in Massa Marittima (~12:30 bis 14:00 Uhr) <br />
 
-        <p style="line-height: 50%;border-left: 2px solid #999; margin-left: 20px;"><br/></p>
-        Freie Zeit zum <a href="activities" class="underline">Stadtspaziergang, Eisessen</a> oder einfach am Pool entspannen ...
-        <p style="line-height: 50%;border-left: 2px solid #999; margin-left: 20px;"><br/></p>
+        <p style="line-height: 50%;border-left: 2px solid #999; margin-left: 20px;"><br /></p>
+        Freie Zeit zum <a href="activities" class="underline">Stadtspaziergang, Eisessen</a> oder einfach am Pool entspannen
+        ...
+        <p style="line-height: 50%;border-left: 2px solid #999; margin-left: 20px;"><br /></p>
 
-        Aperitivo auf der Tenuta Casteani (später Nachmittag, ca. 17:30 Uhr) <br/>
-        Hochzeitsdinner und Party (Open End) <br/>
+        Aperitivo auf der Tenuta Casteani (später Nachmittag, ca. 17:30 Uhr) <br />
+        Hochzeitsdinner und Party (Open End) <br />
       </p>
 
-      <p style="border-left: 2px solid #999; margin-left: 20px;"><br/></p>
+      <p style="border-left: 2px solid #999; margin-left: 20px;"><br /></p>
 
       <p>
-        15. Juni: <br/>
+        15. Juni: <br />
         Abschiedsbrunch auf der Tenuta Casteani
       </p>
     </Fragment>
@@ -84,19 +85,6 @@ const metadata = {
       <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <CallToAction
-    title="Rückmeldung"
-    subtitle="Um unsere gemeinsame Feier zu planen, freuen wir uns, wenn ihr möglichst bald zu- oder absagt, spätestens bitte zum 1. März 2025."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'RSVP',
-        href: 'mailto:info@kirstin-und-jonathan.de?subject=RSVP&body=Hallo%20ihr%20beiden%2C%0A%0Awir%20kommen%20gerne.%20Wir%20werden%20mit%20%20...%20Personen%20mit%20euch%20zusammen%20feiern.%0A%0AViele%20Gr%C3%BC%C3%9Fe%0A...',
-        icon: 'tabler:mail',
-      },
-    ]}
-  />
 
   <Content
     image={{
@@ -121,20 +109,16 @@ const metadata = {
       </p>
       <p>
         Für die Hochzeit seid ihr unsere Gäste - wenn ihr aber ein paar Tage früher an- oder später abreisen wollt,
-        bucht diese Zeit gerne selbst bei der Tenuta (vor dem 13. inzwischen ausgebucht) oder im Palazzo. Bitte meldet euch dann auch bei uns, damit wir 
-        die Zimmerbelegung während des Wochenendes koordinieren können!  
+        bucht diese Zeit gerne selbst bei der Tenuta (vor dem 13. inzwischen ausgebucht) oder im Palazzo. Bitte meldet
+        euch dann auch bei uns, damit wir die Zimmerbelegung während des Wochenendes koordinieren können!
       </p>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
 
   <HeroText>
     <Fragment slot="title"
-      ><Image src={'~/assets/images/olive_3.png'} alt={'Oliven'} style="max-width: 2em; display: inline;" /> Anreise & Parken </Fragment
-    >
+      ><Image src={'~/assets/images/olive_3.png'} alt={'Oliven'} style="max-width: 2em; display: inline;" /> Anreise & Parken
+    </Fragment>
     <Fragment slot="content">
       <p class="mt-4 text-muted text-xl">
         Massa Marittima ist mit dem Auto in ca. 8 Stunden von München aus zu erreichen. Für das letzte Stück ab Colle di
@@ -156,56 +140,57 @@ const metadata = {
         Wenn ihr ohne Auto anreist, setzt euch mit uns in Verbindung, damit wir den Transport zwischen Massa und
         Casteani und bei Bedarf von Follonica organisieren können.
       </p>
-      
+
       <p class="mt-4 text-muted text-xl">
-        <b>Parkplätze</b> gibt es natürlich auf der Tenuta. 
-        In Massa gibt es einen <a 
+        <b>Parkplätze</b> gibt es natürlich auf der Tenuta. In Massa gibt es einen <a
           href="https://www.google.com/maps/place/Parcheggio+di+Piazza+Garibaldi/@43.0492465,10.8877697,154m/data=!3m1!1e3!4m6!3m5!1s0x1329ef0018d90e33:0x427380f59aabecca!8m2!3d43.04941!4d10.8887172!16s%2Fg%2F11y6l6r_jd?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
           class="underline"
-          target="_blank">
-        zentralen gebührenpflichtigen</a> und zwei
-        <a 
+          target="_blank"
+        >
+          zentralen gebührenpflichtigen</a
+        > und zwei
+        <a
           href="https://www.google.com/maps/place/Parcheggio+Ex+Monastero+di+Santa+Chiara/@43.0524022,10.8936928,21z/data=!4m6!3m5!1s0x1329ed6a00484fa1:0x8c7d9092356e0a06!8m2!3d43.0523869!4d10.8937622!16s%2Fg%2F11l34vkj4d?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
           class="underline"
           target="_blank"
           >kleinere
         </a>,
-        <a 
+        <a
           href="https://www.google.com/maps/@43.0496857,10.8867531,20.07z?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
           class="underline"
           target="_blank"
           >kostenlose
         </a> Parkplätze in Laufweite zur Piazza.
       </p>
-          
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
     </Fragment>
   </HeroText>
 
   <Features2
     title="Geschenke"
     subtitle="Gute Bücher, interessante Dinge, Zeit mit euch ... klein, leicht, transportabel und schön. ;)"
-  >
+  />
+
+  <Features2 title="Dresscode" subtitle="Sommerlich-elegant">
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
-  
-  <Features2
-    title="Dresscode"
-    subtitle='Sommerlich-elegant'
-  />
 
   <Features2
     title="Kontaktadressen"
     subtitle='Hier erreicht ihr unsere Trauzeug:innen Christine, Sandra und Raphael: <br/> <a href="mailto:trauzeugen@kirstin-und-jonathan.de" class="underline">trauzeugen@kirstin-und-jonathan.de<a/>'
+  />
+
+  <Features2
+    title="Weitere Informationen"
+    subtitle="Alle aktuellen Informationen findet ihr hier. Bei weiteren Fragen wendet euch gerne an das Brautpaar.<br/> Wir freuen uns schon sehr auf euch und auf diesen Tag!"
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-(--aw-color-secondary) opacity-50 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
-
-  <Features2
-    title="Weitere Informationen"
-    subtitle="Alle aktuellen Informationen findet ihr hier. Bei weiteren Fragen wendet euch gerne an das Brautpaar.<br/> Wir freuen uns schon sehr auf euch und auf diesen Tag!"
-  />
 </Layout>
