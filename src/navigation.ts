@@ -11,10 +11,6 @@ export const headerData = {
           href: getPermalink('/#' + toHtmlId('Wann und Wo')),
         },
         {
-          text: 'RSVP',
-          href: getPermalink('/#' + toHtmlId('Rückmeldung')),
-        },
-        {
           text: 'Unterkunft vor Ort',
           href: getPermalink('/#' + toHtmlId('Unterkunft vor Ort')),
         },
