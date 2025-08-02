@@ -77,6 +77,9 @@
 
 html {
   scroll-padding-top: 80px;
+  body {
+    scroll-behavior: smooth;
+  }
 }
 
 .dropdown:focus .dropdown-menu,
